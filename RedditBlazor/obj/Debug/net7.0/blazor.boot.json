@@ -206,7 +206,7 @@
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
       "Domain.dll": "sha256-+yXPZtqTKSTU8kyRc9LF2HL38v9TUMRBR43ahOz3Iag=",
       "HttpClients.dll": "sha256-UvsAbk6y9MJihsv9qGUOJCi+\/ZtuRccTs4xM4ncTDo0=",
-      "RedditBlazor.dll": "sha256-\/BUShYfY6hxv4eDm6NvDuE1uCEHuHf5gEBURvhNq90I="
+      "RedditBlazor.dll": "sha256-S2MXGk7iKwfIIk9\/3LCS70YzMbk0YiA6pDQXC4wVNI4="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -214,7 +214,7 @@
     "pdb": {
       "HttpClients.pdb": "sha256-NQDYV18OpWSQ8PfvZ0YBhpC86Qq4Rid1pk9Sku1FaDM=",
       "Domain.pdb": "sha256-BZp9joQKzy8rMEsUP4UPF0Zd4DQTMcnZc9XHPMd87OI=",
-      "RedditBlazor.pdb": "sha256-GEYjPkHzIqnFV3uQU1v3eEiGzSXL+oGx2GAV\/Z7Ptgk="
+      "RedditBlazor.pdb": "sha256-fOWR32uC9ltPPvi3FqpdObwcCyIzTFvAcT9QqXsv+Uw="
     },
     "runtime": {
       "dotnet.7.0.5.eqjcfhk70f.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",

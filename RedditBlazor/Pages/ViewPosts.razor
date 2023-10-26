@@ -2,6 +2,7 @@
 @using Domain
 @page "/Posts"
 @inject IPostService postService
+@inject NavigationManager NavigationManager
 
 
 <h3>ViewPosts</h3>
@@ -14,6 +15,7 @@
         <div class="card">
             <div class="card-body">
                 @post.Title - @post.OwnerUsername
+                <button @onclick="() => Open(post.Id)">SEE MORE</button>
             </div>
         </div>
     }
@@ -36,5 +38,10 @@
             Console.WriteLine(e);
             msg = e.Message;
         }
+    }
+
+    private void Open(int id)
+    {
+        NavigationManager.NavigateTo($"/posts/{id}");
     }
 }

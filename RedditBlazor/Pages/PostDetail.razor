@@ -1,0 +1,50 @@
+﻿@page "/posts/{id:int}"
+@using HttpClients.ClientInterfaces
+@using Domain
+<h3>PostDetail</h3>
+@inject IPostService postService
+@inject NavigationManager NavigationManager
+
+<h3>
+    Post detail
+</h3>
+
+<div class="card">
+    <div class="card-body">
+        <h5>
+            @post.Title
+        </h5>
+        <p>
+            @post.Body
+        </p>
+        <button @onclick="Back">Go BACK</button>
+    </div>
+</div>
+
+@code {
+    [Parameter] 
+    public int Id { get; set; }
+
+    private string msg = "";
+    private Post post = null;
+
+    protected async override Task OnInitializedAsync()
+    {
+        msg = "Loding";
+        try
+        {
+            post = await postService.GetByIdAsync(Id);
+            msg = "";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+    private void Back()
+    {
+        NavigationManager.NavigateTo("posts");
+    }
+}

@@ -57,9 +57,6 @@ public class PostsController : ControllerBase
         
     }
     
-    
-     
-
     [HttpGet("{id:int}")]
     public async Task<ActionResult<Post>> GetByIdAsync([FromRoute] int id)
     {

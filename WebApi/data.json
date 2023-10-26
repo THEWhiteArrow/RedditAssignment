@@ -9,6 +9,11 @@
       "Id": 2,
       "Username": "zzz",
       "Password": "zzz"
+    },
+    {
+      "Id": 3,
+      "Username": "damian",
+      "Password": "damian"
     }
   ],
   "Posts": [
@@ -23,6 +28,12 @@
       "Title": "dddddsdsad asda sdas asd",
       "Body": " asdas dasdas dasd asd asd",
       "OwnerUsername": "ddd"
+    },
+    {
+      "Id": 3,
+      "Title": "DNP Assginemner",
+      "Body": "Kindof works",
+      "OwnerUsername": "damian"
     }
   ]
 }
