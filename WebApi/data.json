@@ -1,0 +1,28 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "Username": "ddd",
+      "Password": "ddd"
+    },
+    {
+      "Id": 2,
+      "Username": "zzz",
+      "Password": "zzz"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Title": "string",
+      "Body": "string",
+      "OwnerUsername": "ddd"
+    },
+    {
+      "Id": 2,
+      "Title": "dddddsdsad asda sdas asd",
+      "Body": " asdas dasdas dasd asd asd",
+      "OwnerUsername": "ddd"
+    }
+  ]
+}

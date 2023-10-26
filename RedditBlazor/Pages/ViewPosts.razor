@@ -1,0 +1,40 @@
+﻿@using HttpClients.ClientInterfaces
+@using Domain
+@page "/Posts"
+@inject IPostService postService
+
+
+<h3>ViewPosts</h3>
+
+<span>@msg</span>
+@if (posts != null)
+{
+    @foreach (Post post in posts)
+    {
+        <div class="card">
+            <div class="card-body">
+                @post.Title - @post.OwnerUsername
+            </div>
+        </div>
+    }
+}
+
+@code {
+    private string msg = "";
+    private IEnumerable<Post>? posts;
+
+    protected override async Task  OnInitializedAsync()
+    {
+        msg = "Loding";
+        try
+        {
+            posts = await postService.GetAsync();
+            msg = "";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
