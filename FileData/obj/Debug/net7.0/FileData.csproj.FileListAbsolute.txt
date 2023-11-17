@@ -15,3 +15,5 @@ C:\Users\Damian\Desktop\SOFTWARE ENGINEERING\Reddit\FileData\obj\Debug\net7.0\Fi
 C:\Users\Damian\Desktop\SOFTWARE ENGINEERING\Reddit\FileData\obj\Debug\net7.0\refint\FileData.dll
 C:\Users\Damian\Desktop\SOFTWARE ENGINEERING\Reddit\FileData\obj\Debug\net7.0\FileData.pdb
 C:\Users\Damian\Desktop\SOFTWARE ENGINEERING\Reddit\FileData\obj\Debug\net7.0\ref\FileData.dll
+C:\Users\Damian\Desktop\SOFTWARE ENGINEERING\Reddit\FileData\bin\Debug\net7.0\FileData.runtimeconfig.json
+C:\Users\Damian\Desktop\SOFTWARE ENGINEERING\Reddit\FileData\obj\Debug\net7.0\FileData.genruntimeconfig.cache
