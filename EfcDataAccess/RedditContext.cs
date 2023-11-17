@@ -11,6 +11,6 @@ public class RedditContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlite("Data Source = ../EfcDataAccessReddit.db");
-        optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);    
+        optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
     }
 }
